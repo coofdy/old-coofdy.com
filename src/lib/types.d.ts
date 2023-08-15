@@ -24,6 +24,7 @@ export type GHMetadata = {
 	created_at: Date;
 	updated_at: Date;
 	reactions: GHReactions;
+	issueUser: GHUser;
 };
 
 export type GHReactions = {
