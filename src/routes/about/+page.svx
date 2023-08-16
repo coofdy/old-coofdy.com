@@ -1,11 +1,27 @@
-<script>
-  import Readme from '../../../README.md'
-</script>
 
-SwyxKit is a blog template meant for frontend developers who want to get a performant, fully featured content site up and running with SvelteKit, Tailwind CSS, and other blog features (listed below).
 
-Below is the full README.md you get from the github repo: https://github.com/sw-yx/swyxkit
+Hi, I'm Martin Kenny, or Marty, or coofdy.
 
----
+## Present
 
-<Readme />
+Together with my son Michael, I am working on an iOS puzzle game called [Pex](https://coofdylabs.com/products/pex/). You can get that on the App Store, right now: https://itunes.apple.com/app/id1621620013
+
+## Elsewhere
+- [Coofdy Labs](https://coofdylabs.com/)
+- [Flickr](https://flickr.com/photos/coofdy)
+- [Seen Objects](https://www.seenobjects.org/) (older photos)
+- [GitHub](https://github.com/coofdy)
+- [Mastodon](https://coofdylabs.social/@marty)
+
+
+## Backstory
+
+As a teen in the late '70s, and early '80s, I spent most waking hours either designing computer hardware, building that hardware, or programming it.
+
+I spent a few years at Adelaide University, before leaving to work building various developer tools (the sort that were then known as [CASE tools](https://en.wikipedia.org/wiki/Computer-aided_software_engineering), but would probably now be best thought of as development platforms).
+
+By 2010 the company I was then working for had been bought by a large multinational, and I was pretty burnt out. At the start of 2010, I left to persue building iOS apps as an independent developer. Life got in the way, as my son, Michael, who had been having trouble coping with school, was diagnosed with Generalized Anxiety Disorder, and Autism. I ended up homeschooling him, and teaching him to program.
+
+Through that time I came to realize that I too am Autistic, which explains so much about my past and present.
+
+I haven't really done any paid work since 2010, but am always building some internal project or other, or helping Michael build one.
