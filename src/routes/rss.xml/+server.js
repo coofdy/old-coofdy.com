@@ -8,7 +8,7 @@ import { listContent } from '$lib/content';
 /** @type {import('@sveltejs/kit').RequestHandler} */
 export async function GET({ fetch }) {
 	const feed = new RSS({
-		title: SITE_TITLE + ' RSS Feed',
+		title: SITE_TITLE,
 		site_url: SITE_URL,
 		feed_url: SITE_URL + '/api/rss.xml'
 	});
