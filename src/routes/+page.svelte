@@ -52,15 +52,13 @@
 				!
 			</h1>
 			<h2 class="mb-4 text-gray-700 dark:text-gray-200">
-				An opinionated blog starter for <span class="font-semibold"
-					>SvelteKit + Tailwind + Netlify/Vercel.</span
-				> Updated for
-				<a href="https://github.com/sveltejs/kit/"
-					>SvelteKit 1.0</a
-				>!
+				I'm Martin Kenny. You may also know me as 
+				<span class="relative inline-block ml-2 before:absolute before:-inset-1 before:block before:-skew-y-3 before:bg-red-500">
+					<span class="relative text-yellow-400 skew-y-3">coofdy</span>
+				</span>, or Marty.
 			</h2>
 			<p class="mb-16 text-gray-600 dark:text-gray-400">
-				<a href={REPO_URL}>View source and feature list here!</a>
+				This bit needs to say some more about what I'm about.
 			</p>
 		</div>
 		<!-- <div
@@ -68,7 +66,7 @@
 			/> -->
 	</div>
 
-	<section class="w-full mb-16">
+	<!-- <section class="w-full mb-16">
 		<h3 class="mb-6 text-2xl font-bold tracking-tight text-black dark:text-white md:text-4xl">
 			Featured Posts
 		</h3>
@@ -81,9 +79,9 @@
 			/>
 			<FeatureCard title="HTML Ipsum demo" href="/moo" stringData="Jan 2022" />
 		</div>
-	</section>
+	</section> -->
 
 	<LatestPosts {items} />
 
-	<Newsletter />
+	<!-- <Newsletter /> -->
 </div>
