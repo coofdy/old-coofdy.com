@@ -1,6 +1,6 @@
 <script>
-	import Newsletter from '../components/Newsletter.svelte';
-	import FeatureCard from '../components/FeatureCard.svelte';
+	// import Newsletter from '../components/Newsletter.svelte';
+	// import FeatureCard from '../components/FeatureCard.svelte';
 	import LatestPosts from '../components/LatestPosts.svelte';
 	import {
 		SITE_URL,
@@ -10,6 +10,8 @@
 		DEFAULT_OG_IMAGE,
 		MY_TWITTER_HANDLE
 	} from '$lib/siteConfig';
+	
+	import marty_headshot from '$lib/images/marty-headshot.jpg';
 
 
 	/** @type {import('./$types').PageData} */
@@ -49,9 +51,9 @@
 				>
 					<span class="relative text-yellow-400 skew-y-3">{SITE_TITLE}</span>
 				</span>
-				!
+				
 			</h1>
-			<h2 class="mb-4 text-gray-700 dark:text-gray-200">
+			<h2 class="mb-4 mt-4 text-gray-700 dark:text-gray-200">
 				I'm Martin Kenny. You may also know me as 
 				<span class="relative inline-block ml-2 before:absolute before:-inset-1 before:block before:-skew-y-3 before:bg-red-500">
 					<span class="relative text-yellow-400 skew-y-3">coofdy</span>
@@ -61,9 +63,9 @@
 				This bit needs to say some more about what I'm about.
 			</p>
 		</div>
-		<!-- <div
-				class="w-[80px] h-[80px] rounded-full sm:w-[176px] sm:h-[136px] relative mb-8 sm:mb-0 mr-auto bg-cyan-300 bg-opacity-25"
-			/> -->
+		<div class="w-[80px] h-[80px] rounded-full sm:w-[176px] sm:h-[136px] relative mb-8 sm:mb-0 mr-auto bg-cyan-300 bg-opacity-25">
+			<img src={marty_headshot} alt="Middle-aged man looking at the camera, over his glasses, and over the corner of a laptop screen." class="rounded-full ">
+		</div>
 	</div>
 
 	<!-- <section class="w-full mb-16">
